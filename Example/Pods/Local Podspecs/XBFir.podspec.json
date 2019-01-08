@@ -1,0 +1,22 @@
+{
+  "name": "XBFir",
+  "version": "0.1.0",
+  "summary": "A short description of XBFir.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Sky/XBFir",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Sky": "327847390@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/Sky/XBFir.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "XBFir/Classes/**/*"
+}

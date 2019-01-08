@@ -1,0 +1,6 @@
+framework module XBFir {
+  umbrella header "XBFir-umbrella.h"
+
+  export *
+  module * { export * }
+}

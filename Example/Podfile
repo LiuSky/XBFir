@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XBFir_Example' do
+  pod 'XBFir', :path => '../'
+
+  target 'XBFir_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,16 @@
+PODS:
+  - XBFir (0.1.0)
+
+DEPENDENCIES:
+  - XBFir (from `../`)
+
+EXTERNAL SOURCES:
+  XBFir:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XBFir: 85a42a22e80d61f7dbbaad6164ba68ccd1f2c6a0
+
+PODFILE CHECKSUM: e0a1d936246e1890160a63321d328191b4a73f6f
+
+COCOAPODS: 1.6.0.beta.1
