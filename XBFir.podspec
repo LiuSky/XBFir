@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'XBFir'
   s.version          = '1.0.0'
-  s.summary          = 'A short description of XBFir.'
+  s.summary          = 'Fir测试版本提示更新'
   s.homepage         = 'https://github.com/LiuSky/XBFir'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Sky' => '327847390@qq.com' }
