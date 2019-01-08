@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2AEE8FBE940F099AA9E0C032ABA24BF9 /* XBFir-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56919471A297161C1BA1523D68C80B41 /* XBFir-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		33B7FF2A21E4750C00030435 /* XBFirManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B7FF2921E4750C00030435 /* XBFirManager.swift */; };
+		33B7FF2C21E4766100030435 /* XBFirManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B7FF2B21E4766100030435 /* XBFirManager.swift */; };
 		4E4D57FB86AD9B1AFACEA013043CE8FD /* Pods-XBFir_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9484AB3936EB681F635D38B316F33BA /* Pods-XBFir_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5FC4A6F29218231626AEE8FD3FC12ACB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		626808982A1DD360BCF831FC9E07E698 /* XBFir-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5488E9849C3AD2BA1A522B0188E37840 /* XBFir-dummy.m */; };
@@ -43,7 +43,7 @@
 		211AA112B3ADA71089DFD34931569CAB /* Pods_XBFir_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XBFir_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		23A4322F145236D1F7D54EBCD0811BAA /* Pods-XBFir_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XBFir_Example-frameworks.sh"; sourceTree = "<group>"; };
 		28BB60D06DFE510E16DFC3110D7A5F68 /* Pods-XBFir_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XBFir_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		33B7FF2921E4750C00030435 /* XBFirManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XBFirManager.swift; sourceTree = "<group>"; };
+		33B7FF2B21E4766100030435 /* XBFirManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = XBFirManager.swift; path = XBFir/Classes/XBFirManager.swift; sourceTree = "<group>"; };
 		3EA300F6820344B111B4529F5D12A0FF /* XBFir.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XBFir.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5488E9849C3AD2BA1A522B0188E37840 /* XBFir-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XBFir-dummy.m"; sourceTree = "<group>"; };
 		56919471A297161C1BA1523D68C80B41 /* XBFir-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XBFir-umbrella.h"; sourceTree = "<group>"; };
@@ -121,7 +121,7 @@
 		9A1E9262E4EEFF5EBB33721E09AC3937 /* XBFir */ = {
 			isa = PBXGroup;
 			children = (
-				33B7FF2921E4750C00030435 /* XBFirManager.swift */,
+				33B7FF2B21E4766100030435 /* XBFirManager.swift */,
 				EC33AFBFBE30B06CFADF693BD8E680C3 /* Pod */,
 				ABA1543AD9BB915428A5297933165F8E /* Support Files */,
 			);
@@ -389,7 +389,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B962422CAD0A7C9D15BD70D8625C02A /* Pods-XBFir_Example-dummy.m in Sources */,
-				33B7FF2A21E4750C00030435 /* XBFirManager.swift in Sources */,
+				33B7FF2C21E4766100030435 /* XBFirManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
